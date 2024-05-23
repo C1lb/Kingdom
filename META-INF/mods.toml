@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="GNU Lesser General Public License version 3 (LGPLv3)"
+
+[[mods]]
+modId="kingdom"
+version="1.0"
+displayName="Kingdom"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Cilb, MCreator"
+description="“Participant MCreator x CurseForge ModJam 2024”"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.kingdom]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
