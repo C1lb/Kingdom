@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "silverbar",
+  "category": "blocks",
+  "experience": 1.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "kingdom:silver_ore"
+  },
+  "result": "kingdom:silverbar"
+}

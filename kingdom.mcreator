@@ -1,0 +1,697 @@
+{
+  "mod_elements": [
+    {
+      "name": "Silverbar",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverbar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silverbar.json",
+          "src/main/java/net/mcreator/kingdom/item/SilverbarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/block/SilverOreBlock.java",
+          "src/main/resources/data/kingdom/loot_tables/blocks/silver_ore.json",
+          "src/main/resources/assets/kingdom/blockstates/silver_ore.json",
+          "src/main/resources/data/kingdom/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/resources/data/kingdom/worldgen/placed_feature/silver_ore.json",
+          "src/main/resources/assets/kingdom/models/block/silver_ore.json",
+          "src/main/resources/data/kingdom/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/assets/kingdom/models/item/silver_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TheMiddleAgesoftheKingdomore",
+      "type": "tab",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_middle_agesofthe_kingdomore",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Silverbarcraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverbarcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/silverbar.json"
+        ]
+      }
+    },
+    {
+      "name": "Anvil",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/block/anvil.json",
+          "src/main/resources/assets/kingdom/models/item/anvil.json",
+          "src/main/resources/data/kingdom/loot_tables/blocks/anvil.json",
+          "src/main/java/net/mcreator/kingdom/block/entity/AnvilBlockEntity.java",
+          "src/main/resources/assets/kingdom/blockstates/anvil.json",
+          "src/main/java/net/mcreator/kingdom/block/AnvilBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Anvilcrafttabel",
+      "type": "gui",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilcrafttabel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/network/AnvilcrafttabelButtonMessage.java",
+          "src/main/java/net/mcreator/kingdom/world/inventory/AnvilcrafttabelMenu.java",
+          "src/main/java/net/mcreator/kingdom/client/gui/AnvilcrafttabelScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Hammer",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/hammer.json",
+          "src/main/java/net/mcreator/kingdom/item/HammerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hammercraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hammercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/hammer.json"
+        ]
+      }
+    },
+    {
+      "name": "Anvilcraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/anvil.json"
+        ]
+      }
+    },
+    {
+      "name": "Silversaber",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silversaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silversaber.json",
+          "src/main/java/net/mcreator/kingdom/item/SilversaberItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Anvilcraftable",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anvilcraftable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/procedures/AnvilcraftableProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Piecesilver",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piecesilver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/item/PiecesilverItem.java",
+          "src/main/resources/assets/kingdom/models/item/piecesilver.json"
+        ]
+      }
+    },
+    {
+      "name": "Piecesilvercraft",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piecesilvercraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/piecesilver.json"
+        ]
+      }
+    },
+    {
+      "name": "Silverbarcraft1",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverbarcraft_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/silverbar1.json"
+        ]
+      }
+    },
+    {
+      "name": "Kingdomtools",
+      "type": "tab",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingdomtools",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Silver",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silver_boots.json",
+          "src/main/resources/assets/kingdom/models/item/silver_chestplate.json",
+          "src/main/java/net/mcreator/kingdom/item/SilverItem.java",
+          "src/main/resources/assets/kingdom/models/item/silver_helmet.json",
+          "src/main/resources/assets/kingdom/models/item/silver_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironshaber",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironshaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/item/IronshaberItem.java",
+          "src/main/resources/assets/kingdom/models/item/ironshaber.json"
+        ]
+      }
+    },
+    {
+      "name": "Different",
+      "type": "tab",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "different",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ironage",
+      "type": "achievement",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/advancements/ironage.json"
+        ]
+      }
+    },
+    {
+      "name": "Anewstorybeginshere",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anewstorybeginshere",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/advancements/anewstorybeginshere.json"
+        ]
+      }
+    },
+    {
+      "name": "Powerisnotalwaysbetter",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerisnotalwaysbetter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/advancements/powerisnotalwaysbetter.json"
+        ]
+      }
+    },
+    {
+      "name": "UndeadKnight",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "undead_knight",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/forge/biome_modifier/undead_knight_biome_modifier.json",
+          "src/main/resources/assets/kingdom/models/item/undead_knight_spawn_egg.json",
+          "src/main/java/net/mcreator/kingdom/entity/UndeadKnightEntity.java",
+          "src/main/java/net/mcreator/kingdom/client/renderer/UndeadKnightRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Kinght",
+      "type": "livingentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kinght",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/entity/KinghtEntity.java",
+          "src/main/resources/data/kingdom/forge/biome_modifier/kinght_biome_modifier.json",
+          "src/main/java/net/mcreator/kingdom/client/renderer/KinghtRenderer.java",
+          "src/main/resources/assets/kingdom/models/item/kinght_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Silvercoin",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silvercoin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silvercoin.json",
+          "src/main/java/net/mcreator/kingdom/item/SilvercoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Silveroreitem",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveroreitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silveroreitem.json",
+          "src/main/java/net/mcreator/kingdom/item/SilveroreitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kingdomitem",
+      "type": "tab",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kingdomitem",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Silverbarcraft2",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverbarcraft_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/silverbarcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Knightarcher",
+      "type": "livingentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knightarcher",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/forge/biome_modifier/knightarcher_biome_modifier.json",
+          "src/main/java/net/mcreator/kingdom/client/renderer/KnightarcherRenderer.java",
+          "src/main/java/net/mcreator/kingdom/entity/KnightarcherEntity.java",
+          "src/main/resources/assets/kingdom/models/item/knightarcher_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldenshabr",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenshabr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/kingdom/item/GoldenshabrItem.java",
+          "src/main/resources/assets/kingdom/models/item/goldenshabr.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironcoin",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironcoin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/ironcoin.json",
+          "src/main/java/net/mcreator/kingdom/item/IroncoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Goldencoin",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldencoin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/goldencoin.json",
+          "src/main/java/net/mcreator/kingdom/item/GoldencoinItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ironcoincraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironcoincraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/ironcoin.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Anvil",
+      "~CUSTOM:SilverOre"
+    ]
+  },
+  "language_map": {
+    "ru_ru": {
+      "item.kingdom.undead_knight_spawn_egg": "Яйцо призыва Рыцаря нежити",
+      "item.the_middle_ages_of_the_kingdom.silverbar": "Серебряный слиток",
+      "advancements.ironage.descr": "Создать новую наковальню",
+      "item.kingdom.silvercoin": "Silver coin",
+      "advancements.anewstorybeginshere.title": "Здесь начинается новая история",
+      "gui.kingdom.anvilcrafttabel.button_craft": "Создать",
+      "item.kingdom.ironshaber": "Железная сабля",
+      "item.kingdom.goldencoin": "Golden coin",
+      "block.kingdom.anvil": "Наковальня для рукоделия",
+      "advancements.ironage.title": "Железный век",
+      "item.kingdom.piecesilver": "Серебряный кусочек",
+      "advancements.powerisnotalwaysbetter.title": "Мощность не всегда лучше",
+      "item_group.kingdom.different": "Kingdom разное",
+      "item.kingdom.silver_boots": "Серебряные сапоги",
+      "advancements.powerisnotalwaysbetter.descr": "Создайте железную саблю",
+      "item.kingdom.silver_leggings": "Серебряные поножи",
+      "item.kingdom.silverbar": "Серебряный слиток",
+      "block.the_middle_ages_of_the_kingdom.silver_ore": "Серебряная руда",
+      "entity.kingdom.knightarcher": "Knight archer",
+      "item.kingdom.silveroreitem": "Silver ore",
+      "item.kingdom.ironcoin": "Iron coin",
+      "block.kingdom.silver_ore": "Серебряная руда",
+      "item_group.kingdom.kingdomitem": "Kingdom item",
+      "item_group.kingdom.the_middle_agesofthe_kingdomore": "Kingdom руда",
+      "item.kingdom.kinght_spawn_egg": "Kinght Spawn Egg",
+      "item.kingdom.knightarcher_spawn_egg": "Knight archer Spawn Egg",
+      "item.kingdom.silversaber": "Серебряная сабля",
+      "item.kingdom.silver_chestplate": "Серебряный нагрудник",
+      "entity.kingdom.undead_knight": "Нежить рыцарь",
+      "entity.kingdom.kinght": "Kinght",
+      "item_group.kingdom.kingdomtools": "Kingdom инструменты",
+      "gui.kingdom.anvilcrafttabel.label_anvil": "Наковальня",
+      "item.kingdom.goldenshabr": "Golden shabr",
+      "item.kingdom.hammer": "Молоток",
+      "advancements.anewstorybeginshere.descr": "Создайте молот (Тор, это ты?)",
+      "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom руда",
+      "item.kingdom.silver_helmet": "Серебряный шлем"
+    },
+    "en_us": {
+      "item.kingdom.undead_knight_spawn_egg": "Undead knight Spawn Egg",
+      "item.the_middle_ages_of_the_kingdom.silverbar": "Silver bar",
+      "advancements.ironage.descr": "Create a new anvil",
+      "item.kingdom.silvercoin": "Silver coin",
+      "advancements.anewstorybeginshere.title": "A new story begins here",
+      "gui.kingdom.anvilcrafttabel.button_craft": "Craft",
+      "item.kingdom.ironshaber": "Iron shaber",
+      "item.kingdom.goldencoin": "Golden coin",
+      "block.kingdom.anvil": "Needlework anvil",
+      "advancements.ironage.title": "Iron age",
+      "item.kingdom.piecesilver": "Silver nugget",
+      "advancements.powerisnotalwaysbetter.title": "Power is not always better",
+      "item_group.kingdom.different": "Kingdom different",
+      "item.kingdom.silver_boots": "Boots silver",
+      "advancements.powerisnotalwaysbetter.descr": "Craft an Iron Saber",
+      "item.kingdom.silver_leggings": "Leggings silver",
+      "item.kingdom.silverbar": "Silver ingot",
+      "block.the_middle_ages_of_the_kingdom.silver_ore": "Silver Ore",
+      "entity.kingdom.knightarcher": "Knight archer",
+      "item.kingdom.silveroreitem": "Silver ore",
+      "item.kingdom.ironcoin": "Iron coin",
+      "block.kingdom.silver_ore": "Silver Ore",
+      "item_group.kingdom.kingdomitem": "Kingdom item",
+      "item_group.kingdom.the_middle_agesofthe_kingdomore": "Kingdom ore",
+      "item.kingdom.kinght_spawn_egg": "Kinght Spawn Egg",
+      "item.kingdom.knightarcher_spawn_egg": "Knight archer Spawn Egg",
+      "item.kingdom.silversaber": "Silver saber",
+      "item.kingdom.silver_chestplate": "Chestplate silver",
+      "entity.kingdom.undead_knight": "Undead knight",
+      "entity.kingdom.kinght": "Kinght",
+      "item_group.kingdom.kingdomtools": "Kingdom tools",
+      "gui.kingdom.anvilcrafttabel.label_anvil": "Anvil",
+      "item.kingdom.goldenshabr": "Golden shabr",
+      "item.kingdom.hammer": "Hammer",
+      "advancements.anewstorybeginshere.descr": "Create a hammer (Thor is that you?)",
+      "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom ore",
+      "item.kingdom.silver_helmet": "Helmet silver"
+    },
+    "uk_ua": {
+      "item.kingdom.undead_knight_spawn_egg": "Яйце відродження лицаря-нежиті",
+      "item.the_middle_ages_of_the_kingdom.silverbar": "Срібний злиток",
+      "advancements.ironage.descr": "Створіть нову ковадло",
+      "item.kingdom.silvercoin": "Silver coin",
+      "advancements.anewstorybeginshere.title": "Тут починається неймовірна історія",
+      "gui.kingdom.anvilcrafttabel.button_craft": "Створити",
+      "item.kingdom.ironshaber": "Залізна шабля",
+      "item.kingdom.goldencoin": "Golden coin",
+      "block.kingdom.anvil": "Ковадло для рукоділля",
+      "advancements.ironage.title": "Залізний вік",
+      "item.kingdom.piecesilver": "Срібний шматок",
+      "advancements.powerisnotalwaysbetter.title": "Потужність не завжди краща",
+      "item_group.kingdom.different": "Kingdom Різне",
+      "item.kingdom.silver_boots": "Срібні чоботи",
+      "advancements.powerisnotalwaysbetter.descr": "Зробіть залізну шаблю",
+      "item.kingdom.silver_leggings": "Срібний поножи",
+      "item.kingdom.silverbar": "Срібний злиток",
+      "block.the_middle_ages_of_the_kingdom.silver_ore": "Срібна руда",
+      "entity.kingdom.knightarcher": "Knight archer",
+      "item.kingdom.silveroreitem": "Silver ore",
+      "item.kingdom.ironcoin": "Iron coin",
+      "block.kingdom.silver_ore": "Срібна руда",
+      "item_group.kingdom.kingdomitem": "Kingdom item",
+      "item_group.kingdom.the_middle_agesofthe_kingdomore": "Kingdom Руда",
+      "item.kingdom.kinght_spawn_egg": "Kinght Spawn Egg",
+      "item.kingdom.knightarcher_spawn_egg": "Knight archer Spawn Egg",
+      "item.kingdom.silversaber": "Срібна шабля",
+      "item.kingdom.silver_chestplate": "Срібний нагрудник",
+      "entity.kingdom.undead_knight": "Нежить лицар",
+      "entity.kingdom.kinght": "Kinght",
+      "item_group.kingdom.kingdomtools": "Kingdom Інструменти",
+      "gui.kingdom.anvilcrafttabel.label_anvil": "Ковадло",
+      "item.kingdom.goldenshabr": "Golden shabr",
+      "item.kingdom.hammer": "Молоток",
+      "advancements.anewstorybeginshere.descr": "Створіть молот (Тор це ти?)",
+      "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom Руда",
+      "item.kingdom.silver_helmet": "Срібний шолом"
+    },
+    "be_by": {
+      "item.kingdom.undead_knight_spawn_egg": "Яйка Спауна Нежыці рыцар",
+      "item.the_middle_ages_of_the_kingdom.silverbar": "Сярэбраны злітак",
+      "advancements.ironage.descr": "Стварыце новую кавадлу",
+      "item.kingdom.silvercoin": "Silver coin",
+      "advancements.anewstorybeginshere.title": "Тут пачынаецца новая гісторыя",
+      "gui.kingdom.anvilcrafttabel.button_craft": "Стварыць",
+      "item.kingdom.ironshaber": "Жалезная шабля",
+      "item.kingdom.goldencoin": "Golden coin",
+      "block.kingdom.anvil": "Кавадла для рукадзелля",
+      "advancements.ironage.title": "Жалезны век",
+      "item.kingdom.piecesilver": "Сярэбраны кавалачак",
+      "advancements.powerisnotalwaysbetter.title": "Улада не заўсёды лепшая",
+      "item_group.kingdom.different": "Kingdom розныя",
+      "item.kingdom.silver_boots": "Сярэбраныя боты",
+      "advancements.powerisnotalwaysbetter.descr": "Стварыце жалезную шаблю",
+      "item.kingdom.silver_leggings": "Сярэбраныя поножи",
+      "item.kingdom.silverbar": "Сярэбраны злітак",
+      "block.the_middle_ages_of_the_kingdom.silver_ore": "Сярэбраная руда",
+      "entity.kingdom.knightarcher": "Knight archer",
+      "item.kingdom.silveroreitem": "Silver ore",
+      "item.kingdom.ironcoin": "Iron coin",
+      "block.kingdom.silver_ore": "Сярэбраная руда",
+      "item_group.kingdom.kingdomitem": "Kingdom item",
+      "item_group.kingdom.the_middle_agesofthe_kingdomore": "Kingdom руда",
+      "item.kingdom.kinght_spawn_egg": "Kinght Spawn Egg",
+      "item.kingdom.knightarcher_spawn_egg": "Knight archer Spawn Egg",
+      "item.kingdom.silversaber": "Сярэбраная шабля",
+      "item.kingdom.silver_chestplate": "Сярэбраны нагруднік",
+      "entity.kingdom.undead_knight": "Нежывы рыцар",
+      "entity.kingdom.kinght": "Kinght",
+      "item_group.kingdom.kingdomtools": "Kingdom інструменты",
+      "gui.kingdom.anvilcrafttabel.label_anvil": "Кавадла",
+      "item.kingdom.goldenshabr": "Golden shabr",
+      "item.kingdom.hammer": "Малаток",
+      "advancements.anewstorybeginshere.descr": "Ствары молат (Тор гэта ты?)",
+      "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom руда",
+      "item.kingdom.silver_helmet": "Сярэбраны шлем"
+    },
+    "kk_kz": {
+      "item.kingdom.undead_knight_spawn_egg": "Өлмеген рыцарь уылдырық жұмыртқасы",
+      "item.the_middle_ages_of_the_kingdom.silverbar": "Күміс құйма",
+      "advancements.ironage.descr": "Жаңа анвилді жасаңыз",
+      "item.kingdom.silvercoin": "Silver coin",
+      "advancements.anewstorybeginshere.title": "Жаңа оқиға осы жерден басталады",
+      "gui.kingdom.anvilcrafttabel.button_craft": "Жасау",
+      "item.kingdom.ironshaber": "Темір қылыш",
+      "item.kingdom.goldencoin": "Golden coin",
+      "block.kingdom.anvil": "Қолөнер анвил",
+      "advancements.ironage.title": "Темір дәуірі",
+      "item.kingdom.piecesilver": "Күміс кесек",
+      "advancements.powerisnotalwaysbetter.title": "Күш әрқашан жақсы бола бермейді",
+      "item_group.kingdom.different": "Kingdom әртүрлі",
+      "item.kingdom.silver_boots": "Күміс етік",
+      "advancements.powerisnotalwaysbetter.descr": "Темір қылыш жасау",
+      "item.kingdom.silver_leggings": "Күміс леггинстер",
+      "item.kingdom.silverbar": "Күміс құйма",
+      "block.the_middle_ages_of_the_kingdom.silver_ore": "Күміс кені",
+      "entity.kingdom.knightarcher": "Knight archer",
+      "item.kingdom.silveroreitem": "Silver ore",
+      "item.kingdom.ironcoin": "Iron coin",
+      "block.kingdom.silver_ore": "Күміс кені",
+      "item_group.kingdom.kingdomitem": "Kingdom item",
+      "item_group.kingdom.the_middle_agesofthe_kingdomore": "Kingdom кені",
+      "item.kingdom.kinght_spawn_egg": "Kinght Spawn Egg",
+      "item.kingdom.knightarcher_spawn_egg": "Knight archer Spawn Egg",
+      "item.kingdom.silversaber": "Күміс қылыш",
+      "item.kingdom.silver_chestplate": "Күміс төсбелгі",
+      "entity.kingdom.undead_knight": "Өлмеген рыцарь",
+      "entity.kingdom.kinght": "Kinght",
+      "item_group.kingdom.kingdomtools": "Kingdom құралдар",
+      "gui.kingdom.anvilcrafttabel.label_anvil": "Анвил",
+      "item.kingdom.goldenshabr": "Golden shabr",
+      "item.kingdom.hammer": "Балға",
+      "advancements.anewstorybeginshere.descr": "Балға жасаңыз (Тор бұл сіз бе?)",
+      "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom кені",
+      "item.kingdom.silver_helmet": "Күміс дулыға"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kingdom",
+    "modName": "Kingdom",
+    "version": "1.4.1",
+    "author": "Cilb, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU Lesser General Public License version 3 (LGPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kingdom"
+  },
+  "mcreatorVersion": 202400115821
+}

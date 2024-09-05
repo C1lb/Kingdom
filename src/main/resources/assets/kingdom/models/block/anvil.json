@@ -1,0 +1,11 @@
+{
+  "parent": "kingdom:custom/template_anvil",
+  "textures": {
+    "all": "kingdom:block/anvilt1",
+    "particle": "kingdom:block/anvilt1",
+    "2": "kingdom:block/hammer",
+    "top": "kingdom:block/anvil_top",
+    "body": "kingdom:block/hammer_anvil"
+  },
+  "render_type": "cutout_mipped"
+}

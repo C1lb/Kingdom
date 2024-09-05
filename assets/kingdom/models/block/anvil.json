@@ -1,9 +1,0 @@
-{
-  "parent": "kingdom:custom/anvil",
-  "textures": {
-    "all": "kingdom:block/anvil",
-    "particle": "kingdom:block/anvil",
-    "2": "kingdom:block/anvil"
-  },
-  "render_type": "cutout_mipped"
-}
