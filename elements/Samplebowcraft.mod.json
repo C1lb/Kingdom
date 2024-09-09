@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Sample"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Sample"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Sample"
       },
       {
-        "value": ""
+        "value": "Items.FEATHER"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "Items.BOW"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "Items.DYE#0"
       },
       {
-        "value": "CUSTOM:Hammer"
+        "value": "CUSTOM:Sample"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "CUSTOM:Sample"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": "CUSTOM:Sample"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Ironcoin"
+      "value": "CUSTOM:Samplebow"
     },
-    "name": "ironcoin",
+    "name": "samplebowcraft",
     "namespace": "mod"
   }
 }

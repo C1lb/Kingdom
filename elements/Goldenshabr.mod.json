@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -12,21 +12,27 @@
     "specialInformation": {
       "fixedValue": []
     },
-    "creativeTab": {
-      "value": "CUSTOM:Kingdomtools"
-    },
-    "harvestLevel": 1,
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Kingdomtools"
+      }
+    ],
     "efficiency": 4.0,
-    "attackSpeed": 3.0,
+    "attackSpeed": 2.5,
     "enchantability": 2,
-    "damageVsEntity": 6.5,
+    "damageVsEntity": 6.0,
     "usageCount": 64,
-    "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ],
     "immuneToFire": false,
+    "blockDropsTier": "GOLD",
+    "blocksAffected": [],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

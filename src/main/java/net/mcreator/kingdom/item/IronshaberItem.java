@@ -4,13 +4,15 @@ package net.mcreator.kingdom.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 public class IronshaberItem extends SwordItem {
 	public IronshaberItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 468;
+				return 250;
 			}
 
 			public float getSpeed() {
@@ -18,11 +20,11 @@ public class IronshaberItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 1.5f;
+				return 1f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 2;
 			}
 
 			public int getEnchantmentValue() {
@@ -30,8 +32,8 @@ public class IronshaberItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -1.5f, new Item.Properties());
+		}, 3, -1f, new Item.Properties());
 	}
 }

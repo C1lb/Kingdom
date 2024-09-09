@@ -42,7 +42,7 @@ public class AnvilcrafttabelMenu extends AbstractContainerMenu implements Suppli
 		super(KingdomModMenus.ANVILCRAFTTABEL.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStackHandler(17);
+		this.internal = new ItemStackHandler(18);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -77,52 +77,52 @@ public class AnvilcrafttabelMenu extends AbstractContainerMenu implements Suppli
 					});
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 11, 9) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 8, 9) {
 			private final int slot = 0;
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 29, 9) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 26, 9) {
 			private final int slot = 1;
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 47, 9) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 44, 9) {
 			private final int slot = 2;
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 65, 9) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 62, 9) {
 			private final int slot = 3;
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 11, 27) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 8, 27) {
 			private final int slot = 4;
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 29, 27) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 26, 27) {
 			private final int slot = 5;
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 47, 27) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 44, 27) {
 			private final int slot = 6;
 		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 65, 27) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 62, 27) {
 			private final int slot = 7;
 		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 11, 45) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 8, 45) {
 			private final int slot = 8;
 		}));
-		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 29, 45) {
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 26, 45) {
 			private final int slot = 9;
 		}));
-		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 47, 45) {
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 44, 45) {
 			private final int slot = 10;
 		}));
-		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 65, 45) {
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 62, 45) {
 			private final int slot = 11;
 		}));
-		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 11, 63) {
+		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 8, 63) {
 			private final int slot = 12;
 		}));
-		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 29, 63) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 26, 63) {
 			private final int slot = 13;
 		}));
-		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 47, 63) {
+		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 44, 63) {
 			private final int slot = 14;
 		}));
-		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 65, 63) {
+		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 62, 63) {
 			private final int slot = 15;
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 37) {
@@ -132,6 +132,9 @@ public class AnvilcrafttabelMenu extends AbstractContainerMenu implements Suppli
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
+		}));
+		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 89, 60) {
+			private final int slot = 17;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -160,16 +163,16 @@ public class AnvilcrafttabelMenu extends AbstractContainerMenu implements Suppli
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 17) {
-				if (!this.moveItemStackTo(itemstack1, 17, this.slots.size(), true))
+			if (index < 18) {
+				if (!this.moveItemStackTo(itemstack1, 18, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 17, false)) {
-				if (index < 17 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 17 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 18, false)) {
+				if (index < 18 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 18 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 17, 17 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 18, 18 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

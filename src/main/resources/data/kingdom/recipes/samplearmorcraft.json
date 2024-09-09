@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "dbe",
+    "fbg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_helmet"
+    },
+    "b": {
+      "item": "kingdom:sample"
+    },
+    "c": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "d": {
+      "item": "minecraft:feather"
+    },
+    "e": {
+      "item": "minecraft:ink_sac"
+    },
+    "f": {
+      "item": "minecraft:iron_leggings"
+    },
+    "g": {
+      "item": "minecraft:iron_boots"
+    }
+  },
+  "result": {
+    "item": "kingdom:samplearmor",
+    "count": 1
+  }
+}

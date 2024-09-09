@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kingdom:block/raw_silver_block",
+    "up": "kingdom:block/raw_silver_block",
+    "north": "kingdom:block/raw_silver_block",
+    "east": "kingdom:block/raw_silver_block",
+    "south": "kingdom:block/raw_silver_block",
+    "west": "kingdom:block/raw_silver_block",
+    "particle": "kingdom:block/raw_silver_block"
+  },
+  "render_type": "solid"
+}

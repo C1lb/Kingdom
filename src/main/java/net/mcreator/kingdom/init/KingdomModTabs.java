@@ -32,28 +32,38 @@ public class KingdomModTabs {
 				tabData.accept(KingdomModItems.GOLDENCOIN.get());
 				tabData.accept(KingdomModItems.SILVERCOIN.get());
 				tabData.accept(KingdomModItems.IRONCOIN.get());
+				tabData.accept(KingdomModItems.SAMPLE.get());
+				tabData.accept(KingdomModItems.SAMPLESWORD.get());
+				tabData.accept(KingdomModItems.SAMPLEBOW.get());
+				tabData.accept(KingdomModItems.SAMPLEARMOR.get());
+				tabData.accept(KingdomModItems.DIAMONDSHARD.get());
 			})
 
 					.build());
-	public static final RegistryObject<CreativeModeTab> THE_MIDDLE_AGESOFTHE_KINGDOMORE = REGISTRY.register("the_middle_agesofthe_kingdomore",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kingdom.the_middle_agesofthe_kingdomore")).icon(() -> new ItemStack(KingdomModBlocks.SILVER_ORE.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(KingdomModBlocks.SILVER_ORE.get().asItem());
-				tabData.accept(KingdomModItems.SILVEROREITEM.get());
-				tabData.accept(KingdomModItems.SILVERBAR.get());
+	public static final RegistryObject<CreativeModeTab> KINGDOMORE = REGISTRY.register("kingdomore",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kingdom.kingdomore")).icon(() -> new ItemStack(KingdomModBlocks.SILVER_ORE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(KingdomModItems.PIECESILVER.get());
+				tabData.accept(KingdomModItems.SILVERBAR.get());
+				tabData.accept(KingdomModItems.SILVEROREITEM.get());
+				tabData.accept(KingdomModBlocks.SILVERBLOCK.get().asItem());
+				tabData.accept(KingdomModBlocks.RAWSILVERBLOCK.get().asItem());
+				tabData.accept(KingdomModBlocks.SILVER_ORE.get().asItem());
 			})
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> KINGDOMTOOLS = REGISTRY.register("kingdomtools",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.kingdom.kingdomtools")).icon(() -> new ItemStack(KingdomModItems.SILVERSABER.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(KingdomModItems.GOLDENSHABR.get());
+				tabData.accept(KingdomModItems.HAMMER.get());
 				tabData.accept(KingdomModItems.SILVERSABER.get());
 				tabData.accept(KingdomModItems.IRONSHABER.get());
+				tabData.accept(KingdomModItems.GOLDENSHABR.get());
+				tabData.accept(KingdomModItems.DIAMONDSABER.get());
+				tabData.accept(KingdomModItems.NETHERITESABER.get());
+				tabData.accept(KingdomModItems.ROUNDIRONSHIELD.get());
 				tabData.accept(KingdomModItems.SILVER_HELMET.get());
 				tabData.accept(KingdomModItems.SILVER_CHESTPLATE.get());
 				tabData.accept(KingdomModItems.SILVER_LEGGINGS.get());
 				tabData.accept(KingdomModItems.SILVER_BOOTS.get());
-				tabData.accept(KingdomModItems.HAMMER.get());
 			})
 
 					.build());
@@ -61,9 +71,10 @@ public class KingdomModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(KingdomModItems.UNDEAD_KNIGHT_SPAWN_EGG.get());
 			tabData.accept(KingdomModItems.KINGHT_SPAWN_EGG.get());
 			tabData.accept(KingdomModItems.KNIGHTARCHER_SPAWN_EGG.get());
+			tabData.accept(KingdomModItems.UNDEAD_KNIGHT_SPAWN_EGG.get());
+			tabData.accept(KingdomModItems.UNDEADKNIGHTARCHER_SPAWN_EGG.get());
 		}
 	}
 }

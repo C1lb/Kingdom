@@ -4,6 +4,8 @@ package net.mcreator.kingdom.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 public class GoldenshabrItem extends SwordItem {
@@ -18,11 +20,11 @@ public class GoldenshabrItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2.5f;
+				return 2f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 0;
 			}
 
 			public int getEnchantmentValue() {
@@ -30,8 +32,8 @@ public class GoldenshabrItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(Items.GOLD_INGOT));
 			}
-		}, 3, -1f, new Item.Properties());
+		}, 3, -1.5f, new Item.Properties());
 	}
 }

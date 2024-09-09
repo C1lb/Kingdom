@@ -2,19 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " aa",
-    "baa"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_nugget"
-    },
-    "b": {
-      "item": "kingdom:hammer"
+      "item": "minecraft:paper"
     }
   },
   "result": {
-    "item": "kingdom:ironcoin",
+    "item": "kingdom:sample",
     "count": 1
   }
 }

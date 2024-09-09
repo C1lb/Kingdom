@@ -5,29 +5,30 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
-import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.WitherSkull;
+import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.entity.monster.ZombieVillager;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.WitherSkeleton;
 import net.minecraft.world.entity.monster.Witch;
 import net.minecraft.world.entity.monster.Slime;
 import net.minecraft.world.entity.monster.Skeleton;
+import net.minecraft.world.entity.monster.RangedAttackMob;
 import net.minecraft.world.entity.monster.EnderMan;
 import net.minecraft.world.entity.monster.Creeper;
 import net.minecraft.world.entity.boss.enderdragon.EnderDragon;
 import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
+import net.minecraft.world.entity.ai.goal.RangedAttackGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
-import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
@@ -44,7 +45,7 @@ import net.minecraft.network.protocol.Packet;
 import net.mcreator.kingdom.init.KingdomModItems;
 import net.mcreator.kingdom.init.KingdomModEntities;
 
-public class KnightarcherEntity extends PathfinderMob {
+public class KnightarcherEntity extends PathfinderMob implements RangedAttackMob {
 	public KnightarcherEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(KingdomModEntities.KNIGHTARCHER.get(), world);
 	}
@@ -86,6 +87,12 @@ public class KnightarcherEntity extends PathfinderMob {
 		this.targetSelector.addGoal(14, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(15, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(16, new FloatGoal(this));
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 27, 15f) {
+			@Override
+			public boolean canContinueToUse() {
+				return this.canUse();
+			}
+		});
 	}
 
 	@Override
@@ -114,6 +121,16 @@ public class KnightarcherEntity extends PathfinderMob {
 	}
 
 	@Override
+	public void performRangedAttack(LivingEntity target, float flval) {
+		Arrow entityarrow = new Arrow(this.level(), this);
+		double d0 = target.getY() + target.getEyeHeight() - 1.1;
+		double d1 = target.getX() - this.getX();
+		double d3 = target.getZ() - this.getZ();
+		entityarrow.shoot(d1, d0 - entityarrow.getY() + Math.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
+		this.level().addFreshEntity(entityarrow);
+	}
+
+	@Override
 	public boolean isPushable() {
 		return false;
 	}
@@ -127,7 +144,6 @@ public class KnightarcherEntity extends PathfinderMob {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(KingdomModEntities.KNIGHTARCHER.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -135,7 +151,7 @@ public class KnightarcherEntity extends PathfinderMob {
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
 		builder = builder.add(Attributes.MAX_HEALTH, 25);
 		builder = builder.add(Attributes.ARMOR, 1);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 4);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 0.1);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.1);

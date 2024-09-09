@@ -63,11 +63,6 @@ public class AnvilcrafttabelScreen extends AbstractContainerScreen<Anvilcrafttab
 	}
 
 	@Override
-	public void containerTick() {
-		super.containerTick();
-	}
-
-	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.kingdom.anvilcrafttabel.label_anvil"), 128, 4, -12829636, false);
 	}

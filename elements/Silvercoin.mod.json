@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -8,10 +8,12 @@
     "customProperties": {},
     "states": [],
     "name": "Silver coin",
-    "rarity": "UNCOMMON",
-    "creativeTab": {
-      "value": "CUSTOM:Kingdomitem"
-    },
+    "rarity": "COMMON",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Kingdomitem"
+      }
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -27,7 +29,9 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [
+        "V"
+      ]
     },
     "glowCondition": {
       "fixedValue": false
@@ -37,6 +41,7 @@
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "anvilt1",
@@ -41,9 +41,11 @@
     "resistance": 15.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:Different"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Different"
+      }
+    ],
     "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
@@ -56,7 +58,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ANVIL"
+      "value": "ROCK"
     },
     "tickRate": 0,
     "tickRandomly": false,
@@ -100,12 +102,12 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "vanillaToolTier": "IRON",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "Anvilcrafttabel",
     "openGUIOnRightClick": true,
-    "inventorySize": 17,
+    "inventorySize": 18,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,

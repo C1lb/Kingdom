@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "kingdom:samplesword"
+  },
+  "base": {
+    "item": "kingdom:diamondsaber"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "kingdom:netheritesaber"
+  }
+}
