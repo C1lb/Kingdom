@@ -1,0 +1,7 @@
+{
+  "parent": "kingdom:custom/big_netherite_sword",
+  "textures": {
+    "0": "kingdom:block/big_netherite_sword",
+    "particle": "kingdom:item/big_netherite_sword"
+  }
+}

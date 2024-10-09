@@ -4,12 +4,12 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="kingdom"
-version="1.4"
+version="1.5"
 displayName="Kingdom"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Cilb or C1lb, MCreator"
+credits="Thanks for playing with my mod"
+authors="Cilb or C1lb"
 displayTest="IGNORE_SERVER_VERSION"
 
 # Start of user code block mod configuration

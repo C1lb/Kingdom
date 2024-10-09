@@ -1,0 +1,7 @@
+{
+  "parent": "kingdom:custom/big_iron_sword",
+  "textures": {
+    "0": "kingdom:block/big_iron_sword",
+    "particle": "kingdom:item/big_iron_sword"
+  }
+}

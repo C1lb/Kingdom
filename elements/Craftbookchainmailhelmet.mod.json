@@ -1,0 +1,684 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book_gui.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craft_gui_armor.png",
+          "use1Xscale": true,
+          "x": 105,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craft_gui_armor.png",
+          "use1Xscale": true,
+          "x": 105,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craft_gui_armor.png",
+          "use1Xscale": true,
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craft_gui_armor.png",
+          "use1Xscale": true,
+          "x": 231,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sampel_armor.png",
+          "use1Xscale": true,
+          "x": 282,
+          "y": 146
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sampel_armor.png",
+          "use1Xscale": true,
+          "x": 282,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sampel_armor.png",
+          "use1Xscale": true,
+          "x": 156,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sampel_armor.png",
+          "use1Xscale": true,
+          "x": 156,
+          "y": 146
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chainmail_helmet.png",
+          "use1Xscale": true,
+          "x": 173,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chainmail_chestplate.png",
+          "use1Xscale": true,
+          "x": 173,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chainmail_leggings.png",
+          "use1Xscale": true,
+          "x": 299,
+          "y": 69
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "chainmail_boots.png",
+          "use1Xscale": true,
+          "x": 299,
+          "y": 132
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 109,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 127,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 145,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 109,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 145,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 109,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 145,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 109,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 109,
+          "y": 119
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 119
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 109,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 127,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 145,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 145,
+          "y": 119
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 119
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 145,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 136
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 127,
+          "y": 136
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 136
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 127,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 118,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 136,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 244,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 253,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 262,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 47
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 244,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 262,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 56
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 82
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 244,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 262,
+          "y": 128
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 262,
+          "y": 136
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 262,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 271,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 244,
+          "y": 136
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 244,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "iron_nugget.png",
+          "use1Xscale": true,
+          "x": 235,
+          "y": 145
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_trade_arrow",
+          "image": "trade_arrow.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbooksaberandbigsword"
+          },
+          "x": 312,
+          "y": 179
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_trade_arrow_left",
+          "image": "trade_arrow_left.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "OpenCraftbook"
+          },
+          "x": 96,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chainmail_helmet",
+          "text": {
+            "fixedValue": "Chainmail helmet"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chainmail_chestplate",
+          "text": {
+            "fixedValue": "Chainmail chestplate"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 96,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chainmail_leggings",
+          "text": {
+            "fixedValue": "Chainmail leggings"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 228,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chainmail_boots",
+          "text": {
+            "fixedValue": "Chainmail boots"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 234,
+          "y": 98
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

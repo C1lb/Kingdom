@@ -30,13 +30,13 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_PICKAXE"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Chisel"
       },
       {
         "value": "Items.DIAMOND"
-      },
-      {
-        "value": ""
       }
     ],
     "recipeReturnStack": {

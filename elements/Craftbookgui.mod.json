@@ -1,0 +1,242 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 0,
+    "height": 0,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "book_gui.png",
+          "use1Xscale": false,
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_trade_arrow",
+          "image": "trade_arrow.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbookarmor"
+          },
+          "x": 312,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_armor",
+          "text": {
+            "fixedValue": "Armor"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 263,
+          "y": 35
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chainmail_helmet",
+          "image": "chainmail_helmet.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbookarmor"
+          },
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chainmail_chestplate",
+          "image": "chainmail_chestplate.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbookarmor"
+          },
+          "x": 249,
+          "y": 53
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chainmail_leggings",
+          "image": "chainmail_leggings.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbookarmor"
+          },
+          "x": 276,
+          "y": 53
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_chainmail_boots",
+          "image": "chainmail_boots.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbookarmor"
+          },
+          "x": 303,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_saber",
+          "text": {
+            "fixedValue": "Saber"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 263,
+          "y": 73
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_saber",
+          "image": "saber.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbooksaberandbigsword"
+          },
+          "x": 267,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_big_sward",
+          "text": {
+            "fixedValue": "Big sword"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 253,
+          "y": 109
+        }
+      },
+      {
+        "type": "imagebutton",
+        "data": {
+          "name": "imagebutton_big_sword",
+          "image": "big_sword.png",
+          "hoveredImage": "",
+          "onClick": {
+            "name": "Opencraftbooksaberandbigsword"
+          },
+          "x": 263,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_welcome_to_craft_book_to_see_the",
+          "text": {
+            "fixedValue": "Welcome to Craft book"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 96,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_to_see_the_recipe_click_on_the",
+          "text": {
+            "fixedValue": "To see the recipe"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 105,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_click_on_the_item_or_on_the_arro",
+          "text": {
+            "fixedValue": "click on the item"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 107,
+          "y": 69
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_or",
+          "text": {
+            "fixedValue": "or"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 145,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_on_the_arrow",
+          "text": {
+            "fixedValue": "on the arrow"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 119,
+          "y": 95
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

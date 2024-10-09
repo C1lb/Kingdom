@@ -21,12 +21,12 @@
     "attackSpeed": 3.0,
     "enchantability": 2,
     "damageVsEntity": 7.0,
-    "usageCount": 2031,
+    "usageCount": 1900,
     "glowCondition": {
       "fixedValue": false
     },
     "repairItems": [],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "blockDropsTier": "NETHERITE",
     "blocksAffected": [],
     "stayInGridWhenCrafting": false,

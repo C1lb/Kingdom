@@ -17,7 +17,7 @@
       "value": "Items.NETHERITE_INGOT"
     },
     "smithingInputTemplateStack": {
-      "value": "CUSTOM:Samplesword"
+      "value": "Items.NETHERITE_UPGRADE"
     },
     "smithingReturnStack": {
       "value": "CUSTOM:Netheritesaber"

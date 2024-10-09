@@ -1,7 +1,0 @@
-{
-  "parent": "kingdom:custom/round_iron_shield_1",
-  "textures": {
-    "0": "kingdom:block/round_iron_shield",
-    "particle": "kingdom:item/round_iron_shield"
-  }
-}
