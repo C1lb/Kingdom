@@ -2,31 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "abc",
-    "dbe",
-    "fbg"
+    "aaa",
+    "bcd",
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:paper"
     },
     "b": {
-      "item": "kingdom:sample"
+      "item": "minecraft:feather"
     },
     "c": {
       "item": "minecraft:iron_chestplate"
     },
     "d": {
-      "item": "minecraft:feather"
-    },
-    "e": {
-      "item": "minecraft:ink_sac"
-    },
-    "f": {
-      "item": "minecraft:iron_leggings"
-    },
-    "g": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:black_dye"
     }
   },
   "result": {

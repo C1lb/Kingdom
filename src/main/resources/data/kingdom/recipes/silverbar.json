@@ -3,7 +3,7 @@
   "group": "silverbar",
   "category": "blocks",
   "experience": 1.5,
-  "cookingtime": 200,
+  "cookingtime": 190,
   "ingredient": {
     "item": "kingdom:silver_ore"
   },

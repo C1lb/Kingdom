@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "villagertrade",
   "definition": {
     "tradeEntries": [
@@ -12,9 +12,9 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 10,
+            "countPrice1": 5,
             "price2": {
-              "value": "CUSTOM:Sample"
+              "value": "Items.PAPER"
             },
             "countPrice2": 6,
             "offer": {
@@ -30,11 +30,11 @@
             "price1": {
               "value": "Items.EMERALD"
             },
-            "countPrice1": 18,
+            "countPrice1": 9,
             "price2": {
-              "value": "CUSTOM:Sample"
+              "value": "Items.PAPER"
             },
-            "countPrice2": 3,
+            "countPrice2": 6,
             "offer": {
               "value": "CUSTOM:Samplearmor"
             },
@@ -42,24 +42,6 @@
             "level": 2,
             "maxTrades": 1,
             "xp": 12,
-            "priceMultiplier": 0.05
-          },
-          {
-            "price1": {
-              "value": "Items.EMERALD"
-            },
-            "countPrice1": 8,
-            "price2": {
-              "value": "CUSTOM:Sample"
-            },
-            "countPrice2": 6,
-            "offer": {
-              "value": "CUSTOM:Samplebow"
-            },
-            "countOffer": 1,
-            "level": 1,
-            "maxTrades": 1,
-            "xp": 4,
             "priceMultiplier": 0.05
           }
         ]

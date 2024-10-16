@@ -3,7 +3,7 @@
   "group": "silverbar",
   "category": "misc",
   "experience": 1.5,
-  "cookingtime": 190,
+  "cookingtime": 175,
   "ingredient": {
     "item": "kingdom:silveroreitem"
   },

@@ -2,17 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aaa",
-    "aaa",
-    "aaa"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
     "a": {
-      "item": "minecraft:paper"
+      "item": "kingdom:silverbar"
+    },
+    "b": {
+      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "kingdom:sample",
+    "item": "kingdom:silversword",
     "count": 1
   }
 }

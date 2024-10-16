@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -8,7 +8,7 @@
     "texture": "iron_saber",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Iron shaber",
+    "name": "Iron Saber",
     "specialInformation": {
       "fixedValue": []
     },

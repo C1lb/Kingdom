@@ -200,11 +200,11 @@
       "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ironshaber",
+      "registry_name": "ironsaber",
       "metadata": {
         "files": [
-          "src/main/java/net/cilb/kingdom/item/IronshaberItem.java",
-          "src/main/resources/assets/kingdom/models/item/ironshaber.json"
+          "src/main/resources/assets/kingdom/models/item/ironsaber.json",
+          "src/main/java/net/cilb/kingdom/item/IronshaberItem.java"
         ]
       },
       "path": "~/tools/weapon/saber"
@@ -266,6 +266,7 @@
       "registry_name": "undead_knight",
       "metadata": {
         "files": [
+          "src/main/resources/data/kingdom/forge/biome_modifier/undead_knight_biome_modifier.json",
           "src/main/resources/assets/kingdom/models/item/undead_knight_spawn_egg.json",
           "src/main/java/net/cilb/kingdom/entity/UndeadKnightEntity.java",
           "src/main/java/net/cilb/kingdom/client/renderer/UndeadKnightRenderer.java"
@@ -282,6 +283,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/cilb/kingdom/entity/KinghtEntity.java",
+          "src/main/resources/data/kingdom/forge/biome_modifier/kinght_biome_modifier.json",
           "src/main/resources/assets/kingdom/models/item/kinght_spawn_egg.json",
           "src/main/java/net/cilb/kingdom/client/renderer/KinghtRenderer.java"
         ]
@@ -348,6 +350,7 @@
       "metadata": {
         "files": [
           "src/main/java/net/cilb/kingdom/client/renderer/KnightarcherRenderer.java",
+          "src/main/resources/data/kingdom/forge/biome_modifier/knightarcher_biome_modifier.json",
           "src/main/java/net/cilb/kingdom/entity/KnightarcherEntity.java",
           "src/main/resources/assets/kingdom/models/item/knightarcher_spawn_egg.json"
         ]
@@ -359,10 +362,10 @@
       "type": "tool",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "goldenshabr",
+      "registry_name": "goldensaber",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kingdom/models/item/goldenshabr.json",
+          "src/main/resources/assets/kingdom/models/item/goldensaber.json",
           "src/main/java/net/cilb/kingdom/item/GoldenshabrItem.java"
         ]
       },
@@ -491,25 +494,12 @@
       "metadata": {
         "files": [
           "src/main/java/net/cilb/kingdom/entity/UndeadknightarcherEntity.java",
+          "src/main/resources/data/kingdom/forge/biome_modifier/undeadknightarcher_biome_modifier.json",
           "src/main/resources/assets/kingdom/models/item/undeadknightarcher_spawn_egg.json",
           "src/main/java/net/cilb/kingdom/client/renderer/UndeadknightarcherRenderer.java"
         ]
       },
       "path": "~/knight"
-    },
-    {
-      "name": "Sample",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sample",
-      "metadata": {
-        "files": [
-          "src/main/java/net/cilb/kingdom/item/SampleItem.java",
-          "src/main/resources/assets/kingdom/models/item/sample.json"
-        ]
-      },
-      "path": "~/item/sample"
     },
     {
       "name": "Samplesword",
@@ -521,20 +511,6 @@
         "files": [
           "src/main/java/net/cilb/kingdom/item/SampleswordItem.java",
           "src/main/resources/assets/kingdom/models/item/samplesword.json"
-        ]
-      },
-      "path": "~/item/sample"
-    },
-    {
-      "name": "Samplebow",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "samplebow",
-      "metadata": {
-        "files": [
-          "src/main/java/net/cilb/kingdom/item/SamplebowItem.java",
-          "src/main/resources/assets/kingdom/models/item/samplebow.json"
         ]
       },
       "path": "~/item/sample"
@@ -554,19 +530,6 @@
       "path": "~/item/sample"
     },
     {
-      "name": "Samplecraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "samplecraft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/kingdom/recipes/samplecraft.json"
-        ]
-      },
-      "path": "~/crafts"
-    },
-    {
       "name": "Sampleswordcraft",
       "type": "recipe",
       "compiles": true,
@@ -575,32 +538,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/kingdom/recipes/sampleswordcraft.json"
-        ]
-      },
-      "path": "~/crafts"
-    },
-    {
-      "name": "Samplebowcraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "samplebowcraft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/kingdom/recipes/samplebowcraft.json"
-        ]
-      },
-      "path": "~/crafts"
-    },
-    {
-      "name": "Samplearmorcraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "samplearmorcraft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/kingdom/recipes/samplearmorcraft.json"
         ]
       },
       "path": "~/crafts"
@@ -669,33 +606,6 @@
         ]
       },
       "path": "~/item"
-    },
-    {
-      "name": "Sampleshield",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sampleshield",
-      "metadata": {
-        "files": [
-          "src/main/java/net/cilb/kingdom/item/SampleshieldItem.java",
-          "src/main/resources/assets/kingdom/models/item/sampleshield.json"
-        ]
-      },
-      "path": "~/item/sample"
-    },
-    {
-      "name": "Sampleshieldcraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sampleshieldcraft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/kingdom/recipes/sampleshieldcraft.json"
-        ]
-      },
-      "path": "~/crafts"
     },
     {
       "name": "Anvilcrafttabelmenu",
@@ -1172,10 +1082,10 @@
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftbook",
+      "registry_name": "book_of_recipes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/kingdom/models/item/craftbook.json",
+          "src/main/resources/assets/kingdom/models/item/book_of_recipes.json",
           "src/main/java/net/cilb/kingdom/item/CraftbookItem.java"
         ]
       },
@@ -1398,30 +1308,191 @@
         ]
       },
       "path": "~/crafts"
+    },
+    {
+      "name": "Samplearmorcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "samplearmorcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/samplearmorcraft.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Silversword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silversword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silversword.json",
+          "src/main/java/net/cilb/kingdom/item/SilverswordItem.java"
+        ]
+      },
+      "path": "~/tools/sword"
+    },
+    {
+      "name": "Silverpickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/kingdom/models/item/silverpickaxe.json",
+          "src/main/java/net/cilb/kingdom/item/SilverpickaxeItem.java"
+        ]
+      },
+      "path": "~/tools/Pickaxe"
+    },
+    {
+      "name": "Silveraxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silveraxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cilb/kingdom/item/SilveraxeItem.java",
+          "src/main/resources/assets/kingdom/models/item/silveraxe.json"
+        ]
+      },
+      "path": "~/tools/Axe"
+    },
+    {
+      "name": "Silvershovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silvershovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cilb/kingdom/item/SilvershovelItem.java",
+          "src/main/resources/assets/kingdom/models/item/silvershovel.json"
+        ]
+      },
+      "path": "~/tools/Shovel"
+    },
+    {
+      "name": "Silverhoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverhoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/cilb/kingdom/item/SilverhoeItem.java",
+          "src/main/resources/assets/kingdom/models/item/silverhoe.json"
+        ]
+      },
+      "path": "~/tools/Hoe"
+    },
+    {
+      "name": "Craftsilversword",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsilversword",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/craftsilversword.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Craftsilverpickaxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsilverpickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/craftsilverpickaxe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Craftsilveraxe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsilveraxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/craftsilveraxe.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Craftsilvershovel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsilvershovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/craftsilvershovel.json"
+        ]
+      },
+      "path": "~/crafts"
+    },
+    {
+      "name": "Craftsilverhoe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsilverhoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/kingdom/recipes/craftsilverhoe.json"
+        ]
+      },
+      "path": "~/crafts"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:Anvil"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Rawsilverblock",
       "~CUSTOM:Silverblock",
       "~CUSTOM:Anvil",
       "~CUSTOM:SilverOre"
     ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Silvershovel"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Anvil"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Silveraxe"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Silverpickaxe",
+      "~CUSTOM:Chisel",
+      "~CUSTOM:Hammer"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:Silverhoe"
+    ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Rawsilverblock",
       "~CUSTOM:Silverblock",
       "~CUSTOM:SilverOre"
     ],
-    "ITEMS:minecraft:pickaxes": [
-      "~CUSTOM:Chisel",
-      "~CUSTOM:Hammer"
-    ],
     "ITEMS:minecraft:swords": [
+      "~CUSTOM:Goldenshabr",
+      "~CUSTOM:Ironshaber",
+      "~CUSTOM:Silversword",
       "~CUSTOM:Bigsilversword",
       "~CUSTOM:Bignetheritesword",
       "~CUSTOM:Bigdiamondsword",
@@ -1429,8 +1500,6 @@
       "~CUSTOM:Biggoldensword",
       "~CUSTOM:Netheritesaber",
       "~CUSTOM:Diamondsaber",
-      "~CUSTOM:Goldenshabr",
-      "~CUSTOM:Ironshaber",
       "~CUSTOM:Silversaber"
     ]
   },
@@ -1439,9 +1508,7 @@
       "Goldencoin",
       "Silvercoin",
       "Ironcoin",
-      "Sample",
       "Samplesword",
-      "Samplebow",
       "Samplearmor",
       "Craftbook"
     ],
@@ -1460,18 +1527,23 @@
       "SilverOre"
     ],
     "CUSTOM:Kingdomtools": [
-      "Chisel",
-      "Hammer",
-      "Silversaber",
-      "Ironshaber",
-      "Goldenshabr",
-      "Diamondsaber",
-      "Netheritesaber",
       "Bigsilversword",
+      "Silversword",
+      "Silversaber",
+      "Silverpickaxe",
+      "Silveraxe",
+      "Silvershovel",
+      "Silverhoe",
       "Bigironsword",
+      "Ironshaber",
+      "Hammer",
+      "Chisel",
       "Biggoldensword",
+      "Goldenshabr",
       "Bigdiamondsword",
+      "Diamondsaber",
       "Bignetheritesword",
+      "Netheritesaber",
       "Silver"
     ]
   },
@@ -1483,7 +1555,6 @@
       "item.kingdom.bigironsword": "Большой железный меч",
       "advancements.ironage.descr": "Создать новую наковальню",
       "advancements.anewstorybeginshere.title": "Здесь начинается новая история",
-      "item.kingdom.ironshaber": "Железная сабля",
       "item.kingdom.goldencoin": "Золотая монета",
       "block.kingdom.anvil": "Наковальня для рукоделия",
       "advancements.ironage.title": "Железный век",
@@ -1497,73 +1568,76 @@
       "gui.kingdom.anvilcrafttabelmenu.button_empty1": "",
       "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
       "block.kingdom.silver_ore": "Серебряная руда",
-      "gui.kingdom.anvilcrafttabelsaber.button_back": "Назад",
-      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "Чтобы увидеть рецепт",
+      "gui.kingdom.anvilcrafttabelsaber.button_back": "Back",
+      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "To see the recipe",
       "item.kingdom.kinght_spawn_egg": "Яйцо призыва рыцаря",
       "gui.kingdom.anvilcrafttabelmenu.button_empty3": "",
-      "gui.kingdom.anvilcraftbigsword.button_craft": "Создать",
+      "gui.kingdom.anvilcraftbigsword.button_craft": "Create",
       "item.kingdom.knightarcher_spawn_egg": "Яйцо призыва рыцаря-лучника",
       "gui.kingdom.anvilcrafttabelmenu.button_empty4": "",
-      "item.kingdom.sampleshield": "Образец щита",
       "item.kingdom.netheritesaber": "Незеритовая сабля",
-      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "нажмите на предмет",
-      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Создать",
-      "gui.kingdom.craftbookguimenu.label_armor": "Броня",
+      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "click on the item",
+      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Create",
+      "gui.kingdom.craftbookguimenu.label_armor": "Armor",
       "item.kingdom.silver_chestplate": "Серебряный нагрудник",
       "item_group.kingdom.kingdomtools": "Kingdom инструменты",
-      "gui.kingdom.anvilcrafttabelmenu.label_sword": "меч",
-      "gui.kingdom.anvilcraftarmor.button_craft": "Создать",
+      "gui.kingdom.anvilcrafttabelmenu.label_sword": "sword",
+      "gui.kingdom.anvilcraftarmor.button_craft": "Create",
       "advancements.bigironswordavhievement.title": "Пока со мной мой меч, я точно знаю, что выживу в любой битве.",
-      "item.kingdom.goldenshabr": "Золотой шабр",
-      "gui.kingdom.anvilcraftarmor.button_back": "Назад",
-      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Кольчужные брюки",
-      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Кольчужный нагрудник",
-      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Сабля",
+      "item.kingdom.silverhoe": "Серебряная мотыга",
+      "gui.kingdom.anvilcraftarmor.button_back": "Back",
+      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Chainmail leggings",
+      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Chainmail chestplate",
+      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Saber",
       "block.kingdom.silverblock": "Серебряный блок",
       "item.kingdom.samplesword": "Образец меча",
       "gui.kingdom.anvilcrafttabelmenu.button_empty": "",
-      "gui.kingdom.anvilcraftbigsword.button_back": "Назад",
+      "gui.kingdom.anvilcraftbigsword.button_back": "Back",
+      "item.kingdom.goldensaber": "Golden saber",
       "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom руда",
-      "gui.kingdom.craftbookguimenu.label_big_sward": "Большой меч",
+      "gui.kingdom.craftbookguimenu.label_big_sward": "Big sword",
       "item.kingdom.chisel": "Зубило",
       "item.kingdom.silver_helmet": "Серебряный шлем",
+      "item.kingdom.silversword": "Серебряный меч",
       "item.kingdom.bigdiamondsword": "Большой алмазный меч",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Большой меч",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Big sword",
       "item.kingdom.diamondshard": "Осколок алмаза",
       "item.kingdom.bignetheritesword": "Большой незеритовый меч",
       "item_group.kingdom.kingdom_ore": "Kingdom ore",
       "item.kingdom.silvercoin": "Серебряная монета",
-      "entity.kingdom.undeadknightarcher": "Немертвый рыцарь",
-      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Добро пожаловать в книгу рецептов",
+      "entity.kingdom.undeadknightarcher": "Нежить рыцарь-лучник",
+      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Welcome to the recipe book",
+      "item.kingdom.book_of_recipes": "Book of recipes",
       "item.kingdom.piecesilver": "Серебряный кусочек",
       "item_group.kingdom.different": "Kingdom разное",
       "item.kingdom.silverbar": "Серебряный слиток",
       "block.the_middle_ages_of_the_kingdom.silver_ore": "Серебряная руда",
       "item_group.kingdom.kingdomitem": "Kingdom Предметы",
-      "item.kingdom.samplebow": "Образец лука",
-      "gui.kingdom.anvilcrafttabelmenu.label_big": "Большой",
-      "item.kingdom.sample": "Образец",
+      "gui.kingdom.anvilcrafttabelmenu.label_big": "Big",
+      "item.kingdom.silveraxe": "Серебряный топор",
       "item.kingdom.silversaber": "Серебряная сабля",
       "gui.kingdom.anvilcrafttabelmenu.label_non": "NON",
       "item.kingdom.diamondsaber": "Алмазная сабля",
+      "item.kingdom.silverpickaxe": "Серебряная кирка",
       "item.kingdom.undeadknightarcher_spawn_egg": "Яйцо призыва рыцаря-нежити",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Сабля",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Saber",
       "advancements.bigironswordavhievement.descr": "Создайте большой железный меч",
-      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Кольчужные сапоги",
+      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Chainmail boots",
       "entity.kingdom.undead_knight": "Нежить рыцарь",
       "entity.kingdom.kinght": "Рыцарь",
-      "gui.kingdom.craftbookguimenu.label_saber": "Сабля",
-      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Броня",
-      "gui.kingdom.craftbookguimenu.label_or": "или",
-      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "на стрелку",
+      "gui.kingdom.craftbookguimenu.label_saber": "Saber",
+      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Armor",
+      "gui.kingdom.craftbookguimenu.label_or": "or",
+      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "on the arrow",
       "block.kingdom.rawsilverblock": "Необработанный серебряный блок",
       "item.kingdom.hammer": "Молоток",
       "item.kingdom.biggoldensword": "Большой золотой меч",
       "item.kingdom.samplearmor": "Образец брони",
-      "item.kingdom.craftbook": "Книга рецептов",
-      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Кольчужный шлем",
+      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Chainmail helmet",
       "gui.kingdom.anvilcrafttabelmenu.label_non1": "NON",
-      "advancements.anewstorybeginshere.descr": "Создайте молот (Тор, это ты?)"
+      "advancements.anewstorybeginshere.descr": "Создайте молот (Тор, это ты?)",
+      "item.kingdom.ironsaber": "Железная Сабля",
+      "item.kingdom.silvershovel": "Серебряная лопата"
     },
     "pl_pl": {
       "item.kingdom.bigsilversword": "Duży srebrny miecz",
@@ -1573,7 +1647,6 @@
       "advancements.ironage.descr": "Utwórz nowe kowadło",
       "advancements.anewstorybeginshere.title": "Tutaj zaczyna się niesamowita historia",
       "item.kingdom.goldencoin": "Złota moneta",
-      "item.kingdom.ironshaber": "Żelazna szabla",
       "block.kingdom.anvil": "Kowadło do robótek ręcznych",
       "advancements.ironage.title": "Epoka żelaza",
       "advancements.powerisnotalwaysbetter.title": "Moc nie zawsze jest lepsza",
@@ -1584,84 +1657,87 @@
       "item.kingdom.silveroreitem": "Ruda srebra",
       "item.kingdom.ironcoin": "Moneta żelazna",
       "gui.kingdom.anvilcrafttabelmenu.button_empty1": "",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
+      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "To see the recipe",
+      "gui.kingdom.anvilcrafttabelsaber.button_back": "Back",
       "block.kingdom.silver_ore": "Ruda srebra",
-      "gui.kingdom.anvilcrafttabelsaber.button_back": "Z powrotem",
-      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "Aby zobaczyć przepis",
+      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
       "item.kingdom.kinght_spawn_egg": "Przywołanie rycerza",
       "gui.kingdom.anvilcrafttabelmenu.button_empty3": "",
-      "gui.kingdom.anvilcraftbigsword.button_craft": "Tworzyć",
+      "gui.kingdom.anvilcraftbigsword.button_craft": "Create",
       "item.kingdom.knightarcher_spawn_egg": "Przywołanie rycerza-łucznika",
       "gui.kingdom.anvilcrafttabelmenu.button_empty4": "",
       "item.kingdom.netheritesaber": "Szabla Netherite",
-      "item.kingdom.sampleshield": "Przykładowa tarcza",
-      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "Kliknij na element",
-      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Tworzyć",
-      "gui.kingdom.craftbookguimenu.label_armor": "Sople",
+      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "click on the item",
+      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Create",
+      "gui.kingdom.craftbookguimenu.label_armor": "Armor",
       "item.kingdom.silver_chestplate": "Srebrny napierśnik",
       "item_group.kingdom.kingdomtools": "Kingdom Narzędzia",
-      "gui.kingdom.anvilcrafttabelmenu.label_sword": "miecz",
-      "gui.kingdom.anvilcraftarmor.button_craft": "Tworzyć",
+      "gui.kingdom.anvilcrafttabelmenu.label_sword": "sword",
+      "gui.kingdom.anvilcraftarmor.button_craft": "Create",
       "advancements.bigironswordavhievement.title": "Dopóki mój miecz jest przy mnie, wiem na pewno, że wytrzymam każdą bitwę.",
-      "item.kingdom.goldenshabr": "Złoty szabr",
-      "gui.kingdom.anvilcraftarmor.button_back": "Z powrotem",
-      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Sztani kolczasta",
-      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Napierśnik kolczy",
-      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Szabla",
+      "item.kingdom.silverhoe": "Srebrna motyka",
+      "gui.kingdom.anvilcraftarmor.button_back": "Back",
+      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Chainmail leggings",
+      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Chainmail chestplate",
+      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Saber",
       "block.kingdom.silverblock": "Blok srebrny",
       "item.kingdom.samplesword": "Przykładowe miecze",
       "gui.kingdom.anvilcrafttabelmenu.button_empty": "",
-      "gui.kingdom.anvilcraftbigsword.button_back": "Z powrotem",
+      "gui.kingdom.anvilcraftbigsword.button_back": "Back",
+      "item.kingdom.goldensaber": "Złota szabla",
       "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom rudy",
-      "gui.kingdom.craftbookguimenu.label_big_sward": "Duży miecz",
+      "gui.kingdom.craftbookguimenu.label_big_sward": "Big sword",
       "item.kingdom.chisel": "Dłuto",
       "item.kingdom.silver_helmet": "Srebrny hełm",
+      "item.kingdom.silversword": "Srebrny miecz",
       "item.kingdom.bigdiamondsword": "Duży diamentowy miecz",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Duży miecz",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Big sword",
       "item.kingdom.diamondshard": "Odłamek diamentu",
       "item.kingdom.bignetheritesword": "Duży miecz netherytowy",
       "item_group.kingdom.kingdom_ore": "Kingdom rudy",
       "item.kingdom.silvercoin": "Srebrna moneta",
       "entity.kingdom.undeadknightarcher": "Nieumarły rycerz",
-      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Witamy w książka kucharska",
+      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Welcome to the recipe book",
+      "item.kingdom.book_of_recipes": "Book of recipes",
       "item.kingdom.piecesilver": "Kawałek srebra",
       "item_group.kingdom.different": "Kingdom Różny",
       "item.kingdom.silverbar": "Srebrny pasek",
       "block.the_middle_ages_of_the_kingdom.silver_ore": "Ruda srebra",
+      "gui.kingdom.anvilcrafttabelsaber.button_create": "Create",
       "item_group.kingdom.kingdomitem": "Kingdom przedmioty",
-      "item.kingdom.samplebow": "Przykładowa ukłon",
-      "gui.kingdom.anvilcrafttabelmenu.label_big": "Duży",
-      "item.kingdom.sample": "Próbka",
+      "gui.kingdom.anvilcrafttabelmenu.label_big": "Big",
+      "item.kingdom.silveraxe": "Srebrny topór",
       "item.kingdom.silversaber": "Srebrna szabla",
       "gui.kingdom.anvilcrafttabelmenu.label_non": "NON",
       "item.kingdom.diamondsaber": "Diamentowa szabla",
+      "item.kingdom.silverpickaxe": "Srebrny kilof",
       "item.kingdom.undeadknightarcher_spawn_egg": "Przywołanie nieumarłego rycerza",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Szabla",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Saber",
       "advancements.bigironswordavhievement.descr": "Stwórz duży żelazny miecz",
-      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Buty kolcze",
+      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Chainmail boots",
       "entity.kingdom.undead_knight": "Nieumarły rycerz",
       "entity.kingdom.kinght": "Rycerz",
-      "gui.kingdom.craftbookguimenu.label_saber": "Szabla",
-      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Sople",
-      "gui.kingdom.craftbookguimenu.label_or": "lub",
-      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "na strzałce",
+      "gui.kingdom.craftbookguimenu.label_saber": "Saber",
+      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Armor",
+      "gui.kingdom.craftbookguimenu.label_or": "or",
+      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "on the arrow",
       "block.kingdom.rawsilverblock": "Surowy blok srebra",
       "item.kingdom.hammer": "Młotek",
       "item.kingdom.biggoldensword": "Duży złoty miecz",
       "item.kingdom.samplearmor": "Próbka sople",
-      "item.kingdom.craftbook": "Księga przepisów",
-      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Hełm kolczy",
+      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Chainmail helmet",
       "gui.kingdom.anvilcrafttabelmenu.label_non1": "NON",
-      "advancements.anewstorybeginshere.descr": "Stwórz młotek (Thor, czy to ty?)"
+      "advancements.anewstorybeginshere.descr": "Stwórz młotek (Thor, czy to ty?)",
+      "item.kingdom.ironsaber": "Żelazna szabla",
+      "item.kingdom.silvershovel": "Srebrna łopata"
     },
     "en_us": {
-      "item.kingdom.bigsilversword": "Big silver sword",
+      "item.kingdom.bigsilversword": "Big silver Sword",
       "item.kingdom.undead_knight_spawn_egg": "Undead knight Spawn Egg",
       "item.the_middle_ages_of_the_kingdom.silverbar": "Silver bar",
-      "item.kingdom.bigironsword": "Big iron sword",
+      "item.kingdom.bigironsword": "Big iron Sword",
       "advancements.ironage.descr": "Create a new anvil",
       "advancements.anewstorybeginshere.title": "A new story begins here",
-      "item.kingdom.ironshaber": "Iron shaber",
       "item.kingdom.goldencoin": "Golden coin",
       "block.kingdom.anvil": "Needlework anvil",
       "advancements.ironage.title": "Iron age",
@@ -1673,26 +1749,25 @@
       "item.kingdom.silveroreitem": "Silver ore",
       "item.kingdom.ironcoin": "Iron coin",
       "gui.kingdom.anvilcrafttabelmenu.button_empty1": "",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
-      "block.kingdom.silver_ore": "Silver Ore",
-      "gui.kingdom.anvilcrafttabelsaber.button_back": "back",
       "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "To see the recipe",
+      "gui.kingdom.anvilcrafttabelsaber.button_back": "Back",
+      "block.kingdom.silver_ore": "Silver Ore",
+      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
       "item.kingdom.kinght_spawn_egg": "Kinght Spawn Egg",
       "gui.kingdom.anvilcrafttabelmenu.button_empty3": "",
       "gui.kingdom.anvilcraftbigsword.button_craft": "Craft",
       "item.kingdom.knightarcher_spawn_egg": "Knight archer Spawn Egg",
       "gui.kingdom.anvilcrafttabelmenu.button_empty4": "",
-      "item.kingdom.sampleshield": "Sample shield",
-      "item.kingdom.netheritesaber": "Netherite saber",
+      "item.kingdom.netheritesaber": "Netherite Saber",
       "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "click on the item",
-      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Craft",
+      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Create",
       "gui.kingdom.craftbookguimenu.label_armor": "Armor",
       "item.kingdom.silver_chestplate": "Chestplate silver",
       "item_group.kingdom.kingdomtools": "Kingdom tools",
       "gui.kingdom.anvilcrafttabelmenu.label_sword": "sword",
       "gui.kingdom.anvilcraftarmor.button_craft": "Craft",
       "advancements.bigironswordavhievement.title": "As long as I have my sword with me, I know for sure that I will survive any battle.",
-      "item.kingdom.goldenshabr": "Golden shabr",
+      "item.kingdom.silverhoe": "Silver Hoe",
       "gui.kingdom.anvilcraftarmor.button_back": "Back",
       "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Chainmail leggings",
       "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Chainmail chestplate",
@@ -1701,29 +1776,33 @@
       "item.kingdom.samplesword": "Sample sword",
       "gui.kingdom.anvilcrafttabelmenu.button_empty": "",
       "gui.kingdom.anvilcraftbigsword.button_back": "Back",
+      "item.kingdom.goldensaber": "Golden Saber",
       "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom ore",
       "gui.kingdom.craftbookguimenu.label_big_sward": "Big sword",
       "item.kingdom.chisel": "Chisel",
       "item.kingdom.silver_helmet": "Helmet silver",
-      "item.kingdom.bigdiamondsword": "Big diamond sword",
+      "item.kingdom.silversword": "Silver Sword",
+      "item.kingdom.bigdiamondsword": "Big diamond Sword",
       "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Big sword",
       "item.kingdom.diamondshard": "Diamond shard",
-      "item.kingdom.bignetheritesword": "Big netherite sword",
+      "item.kingdom.bignetheritesword": "Big netherite Sword",
       "item_group.kingdom.kingdom_ore": "Kingdom ore",
       "item.kingdom.silvercoin": "Silver coin",
       "entity.kingdom.undeadknightarcher": "Undead knight archel",
-      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Welcome to recipe book",
+      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Welcome to the recipe book",
+      "item.kingdom.book_of_recipes": "Book of recipes",
       "item.kingdom.piecesilver": "Silver nugget",
       "item_group.kingdom.different": "Kingdom different",
       "item.kingdom.silverbar": "Silver ingot",
       "block.the_middle_ages_of_the_kingdom.silver_ore": "Silver Ore",
+      "gui.kingdom.anvilcrafttabelsaber.button_create": "Create",
       "item_group.kingdom.kingdomitem": "Kingdom item",
-      "item.kingdom.samplebow": "Sample bow",
       "gui.kingdom.anvilcrafttabelmenu.label_big": "Big",
-      "item.kingdom.sample": "Sample",
-      "item.kingdom.silversaber": "Silver saber",
+      "item.kingdom.silveraxe": "Silver Axe",
+      "item.kingdom.silversaber": "Silver Saber",
       "gui.kingdom.anvilcrafttabelmenu.label_non": "NON",
-      "item.kingdom.diamondsaber": "Diamond saber",
+      "item.kingdom.diamondsaber": "Diamond Saber",
+      "item.kingdom.silverpickaxe": "Silver pickaxe",
       "item.kingdom.undeadknightarcher_spawn_egg": "Undead knight archel Spawn Egg",
       "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Saber",
       "advancements.bigironswordavhievement.descr": "Create a big iron sword",
@@ -1736,12 +1815,13 @@
       "gui.kingdom.craftbookguimenu.label_on_the_arrow": "on the arrow",
       "block.kingdom.rawsilverblock": "Raw silver block",
       "item.kingdom.hammer": "Hammer",
-      "item.kingdom.biggoldensword": "Big golden sword",
+      "item.kingdom.biggoldensword": "Big golden Sword",
       "item.kingdom.samplearmor": "Sample armor",
-      "item.kingdom.craftbook": "Recipe book",
       "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Chainmail helmet",
       "gui.kingdom.anvilcrafttabelmenu.label_non1": "NON",
-      "advancements.anewstorybeginshere.descr": "Create a hammer (Thor is that you?)"
+      "advancements.anewstorybeginshere.descr": "Create a hammer (Thor is that you?)",
+      "item.kingdom.ironsaber": "Iron Saber",
+      "item.kingdom.silvershovel": "Silver Shovel"
     },
     "uk_ua": {
       "item.kingdom.bigsilversword": "Великий срібний меч",
@@ -1750,7 +1830,6 @@
       "item.kingdom.bigironsword": "Великий залізний меч",
       "advancements.ironage.descr": "Створіть нову ковадло",
       "advancements.anewstorybeginshere.title": "Тут починається неймовірна історія",
-      "item.kingdom.ironshaber": "Залізна шабля",
       "item.kingdom.goldencoin": "Золота монета",
       "block.kingdom.anvil": "Ковадло для рукоділля",
       "advancements.ironage.title": "Залізний вік",
@@ -1762,75 +1841,79 @@
       "item.kingdom.silveroreitem": "Срібна руда",
       "item.kingdom.ironcoin": "Задізна монета",
       "gui.kingdom.anvilcrafttabelmenu.button_empty1": "",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
+      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "To see the recipe",
+      "gui.kingdom.anvilcrafttabelsaber.button_back": "Back",
       "block.kingdom.silver_ore": "Срібна руда",
-      "gui.kingdom.anvilcrafttabelsaber.button_back": "назад",
-      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "Щоб побачити рецепт",
+      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
       "item.kingdom.kinght_spawn_egg": "Яйце призиву лицаря",
       "gui.kingdom.anvilcrafttabelmenu.button_empty3": "",
       "gui.kingdom.anvilcraftbigsword.button_craft": "Створити",
       "item.kingdom.knightarcher_spawn_egg": "Яйце призиву лучника-лицаря",
       "gui.kingdom.anvilcrafttabelmenu.button_empty4": "",
-      "item.kingdom.sampleshield": "Зразок щита",
       "item.kingdom.netheritesaber": "Незерітова шабля",
-      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "нажміть на предмет",
-      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Створити",
-      "gui.kingdom.craftbookguimenu.label_armor": "Обладунки",
+      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "click on the item",
+      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Create",
+      "gui.kingdom.craftbookguimenu.label_armor": "Armor",
       "item.kingdom.silver_chestplate": "Срібний нагрудник",
       "item_group.kingdom.kingdomtools": "Kingdom Інструменти",
-      "gui.kingdom.anvilcrafttabelmenu.label_sword": "метч",
+      "gui.kingdom.anvilcrafttabelmenu.label_sword": "sword",
       "gui.kingdom.anvilcraftarmor.button_craft": "Створити",
       "advancements.bigironswordavhievement.title": "Поки зі мною мій меч, я точно знаю, що витримаю будь-яку битву.",
-      "item.kingdom.goldenshabr": "Золотий шабр",
-      "gui.kingdom.anvilcraftarmor.button_back": "Назад",
-      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Кольчужні штани",
-      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Кольчужний нагрудник",
-      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Шабля",
+      "item.kingdom.silverhoe": "Срібна мотика",
+      "gui.kingdom.anvilcraftarmor.button_back": "Back",
+      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Chainmail leggings",
+      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Chainmail chestplate",
+      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Saber",
       "block.kingdom.silverblock": "Срібний блок",
       "item.kingdom.samplesword": "Зрозок меча",
       "gui.kingdom.anvilcrafttabelmenu.button_empty": "",
-      "gui.kingdom.anvilcraftbigsword.button_back": "Назад",
+      "gui.kingdom.anvilcraftbigsword.button_back": "Back",
+      "item.kingdom.goldensaber": "Золота шабля",
       "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom Руди",
-      "gui.kingdom.craftbookguimenu.label_big_sward": "Велийкий меч",
+      "gui.kingdom.craftbookguimenu.label_big_sward": "Big sword",
       "item.kingdom.chisel": "Стамеска",
       "item.kingdom.silver_helmet": "Срібний шолом",
+      "item.kingdom.silversword": "Срібний меч",
       "item.kingdom.bigdiamondsword": "Великий діамонтовий метч",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Велийкий меч",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Big sword",
       "item.kingdom.diamondshard": "Діамантовий кусок",
       "item.kingdom.bignetheritesword": "Великий незерітовий меч",
-      "item_group.kingdom.kingdom_ore": "Kingdom ore",
+      "item_group.kingdom.kingdom_ore": "Kingdom Руди",
       "item.kingdom.silvercoin": "Срібна монета",
       "entity.kingdom.undeadknightarcher": "Нежить лицарь",
-      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Ласкаво просимо в книгу рецептів",
+      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Welcome to the recipe book",
+      "item.kingdom.book_of_recipes": "Book of recipes",
       "item.kingdom.piecesilver": "Срібний шматок",
       "item_group.kingdom.different": "Kingdom Різне",
       "item.kingdom.silverbar": "Срібний злиток",
       "block.the_middle_ages_of_the_kingdom.silver_ore": "Срібна руда",
+      "gui.kingdom.anvilcrafttabelsaber.button_create": "Create",
       "item_group.kingdom.kingdomitem": "Kingdom Предмети",
-      "item.kingdom.samplebow": "Зразок лука",
-      "gui.kingdom.anvilcrafttabelmenu.label_big": "Великий",
-      "item.kingdom.sample": "Зразок",
+      "gui.kingdom.anvilcrafttabelmenu.label_big": "Big",
+      "item.kingdom.silveraxe": "Срібна сокира",
       "item.kingdom.silversaber": "Срібна шабля",
       "gui.kingdom.anvilcrafttabelmenu.label_non": "NON",
       "item.kingdom.diamondsaber": "Діамантова шабля",
+      "item.kingdom.silverpickaxe": "Срібне кайло",
       "item.kingdom.undeadknightarcher_spawn_egg": "Яйце призиву лучника лицаря-нежиті",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Шабля",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Saber",
       "advancements.bigironswordavhievement.descr": "Створіть великий залізний меч",
-      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Кольчужні чоботи",
+      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Chainmail boots",
       "entity.kingdom.undead_knight": "Нежить лицар",
       "entity.kingdom.kinght": "Лицар",
-      "gui.kingdom.craftbookguimenu.label_saber": "Шабля",
-      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Обладунки",
-      "gui.kingdom.craftbookguimenu.label_or": "або",
-      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "на стрілку",
+      "gui.kingdom.craftbookguimenu.label_saber": "Saber",
+      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Armor",
+      "gui.kingdom.craftbookguimenu.label_or": "or",
+      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "on the arrow",
       "block.kingdom.rawsilverblock": "Необроблений срібний блок",
       "item.kingdom.hammer": "Молоток",
       "item.kingdom.biggoldensword": "Великий золотий меч",
       "item.kingdom.samplearmor": "Зразок обладунків",
-      "item.kingdom.craftbook": "Книга рецептів",
-      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Кольчужний шолом",
+      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Chainmail helmet",
       "gui.kingdom.anvilcrafttabelmenu.label_non1": "NON",
-      "advancements.anewstorybeginshere.descr": "Створіть молот (Тор це ти?)"
+      "advancements.anewstorybeginshere.descr": "Створіть молот (Тор це ти?)",
+      "item.kingdom.ironsaber": "Залізна шабля",
+      "item.kingdom.silvershovel": "Срібна лопата"
     },
     "be_by": {
       "item.kingdom.bigsilversword": "Вялікі срэбны меч",
@@ -1839,9 +1922,8 @@
       "item.kingdom.bigironsword": "Вялікі жалезны меч",
       "advancements.ironage.descr": "Стварыце новую кавадлу",
       "advancements.anewstorybeginshere.title": "Тут пачынаецца новая гісторыя",
-      "item.kingdom.ironshaber": "Жалезная шабля",
       "item.kingdom.goldencoin": "Залатая манета",
-      "block.kingdom.anvil": "Кавадла для рукадзелля",
+      "block.kingdom.anvil": "Needlework anvil",
       "advancements.ironage.title": "Жалезны век",
       "advancements.powerisnotalwaysbetter.title": "Улада не заўсёды лепшая",
       "item.kingdom.silver_boots": "Сярэбраныя боты",
@@ -1851,164 +1933,79 @@
       "item.kingdom.silveroreitem": "Сярэбраная руда",
       "item.kingdom.ironcoin": "Жалезная манета",
       "gui.kingdom.anvilcrafttabelmenu.button_empty1": "",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
+      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "To see the recipe",
+      "gui.kingdom.anvilcrafttabelsaber.button_back": "Back",
       "block.kingdom.silver_ore": "Сярэбраная руда",
-      "gui.kingdom.anvilcrafttabelsaber.button_back": "Назад",
-      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "Каб убачыць рэцэпт",
+      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
       "item.kingdom.kinght_spawn_egg": "Яйка спаўна рыцара",
       "gui.kingdom.anvilcrafttabelmenu.button_empty3": "",
       "gui.kingdom.anvilcraftbigsword.button_craft": "Стварыць",
       "item.kingdom.knightarcher_spawn_egg": "Рыцарскі лучнік Spawn Egg",
       "gui.kingdom.anvilcrafttabelmenu.button_empty4": "",
-      "item.kingdom.sampleshield": "Узор шчыта",
       "item.kingdom.netheritesaber": "Нетэрытавая шабля",
-      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "націсніце на прадмет",
-      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Стварыць",
-      "gui.kingdom.craftbookguimenu.label_armor": "Даспехі",
+      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "click on the item",
+      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Create",
+      "gui.kingdom.craftbookguimenu.label_armor": "Armor",
       "item.kingdom.silver_chestplate": "Сярэбраны нагруднік",
       "item_group.kingdom.kingdomtools": "Kingdom інструменты",
-      "gui.kingdom.anvilcrafttabelmenu.label_sword": "меч",
+      "gui.kingdom.anvilcrafttabelmenu.label_sword": "sword",
       "gui.kingdom.anvilcraftarmor.button_craft": "Стварыць",
       "advancements.bigironswordavhievement.title": "Қылышым жанымда болса, кез келген шайқастан аман шығатынымды анық білемін.",
-      "item.kingdom.goldenshabr": "Залаты шабр",
-      "gui.kingdom.anvilcraftarmor.button_back": "Назад",
-      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Кальчужныя ласіны",
-      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Кальчуга нагрудная",
-      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Шабля",
+      "item.kingdom.silverhoe": "Срэбная матыка",
+      "gui.kingdom.anvilcraftarmor.button_back": "Back",
+      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Chainmail leggings",
+      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Chainmail chestplate",
+      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Saber",
       "block.kingdom.silverblock": "Срэбная глыба",
       "item.kingdom.samplesword": "Узорны меч",
       "gui.kingdom.anvilcrafttabelmenu.button_empty": "",
-      "gui.kingdom.anvilcraftbigsword.button_back": "Назад",
+      "gui.kingdom.anvilcraftbigsword.button_back": "Back",
+      "item.kingdom.goldensaber": "Залатая шабля",
       "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom руда",
-      "gui.kingdom.craftbookguimenu.label_big_sward": "Вялікі меч",
+      "gui.kingdom.craftbookguimenu.label_big_sward": "Big sword",
       "item.kingdom.chisel": "Стамеска",
       "item.kingdom.silver_helmet": "Сярэбраны шлем",
+      "item.kingdom.silversword": "Сярэбраны меч",
       "item.kingdom.bigdiamondsword": "Вялікі алмазны меч",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Вялікі меч",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Big sword",
       "item.kingdom.diamondshard": "Алмазны асколак",
       "item.kingdom.bignetheritesword": "Вялікі нетэрытавы меч",
       "item_group.kingdom.kingdom_ore": "Kingdom ore",
       "item.kingdom.silvercoin": "Сярэбраная манета",
       "entity.kingdom.undeadknightarcher": "Нежывы рыцар",
-      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Сардэчна запрашаем у кнігу рэцэптаў",
+      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Welcome to the recipe book",
+      "item.kingdom.book_of_recipes": "Book of recipes",
       "item.kingdom.piecesilver": "Сярэбраны кавалачак",
       "item_group.kingdom.different": "Kingdom розныя",
       "item.kingdom.silverbar": "Сярэбраны злітак",
       "block.the_middle_ages_of_the_kingdom.silver_ore": "Сярэбраная руда",
+      "gui.kingdom.anvilcrafttabelsaber.button_create": "Create",
       "item_group.kingdom.kingdomitem": "Kingdom элементы",
-      "item.kingdom.samplebow": "Узорны лук",
-      "gui.kingdom.anvilcrafttabelmenu.label_big": "Вялікі",
-      "item.kingdom.sample": "Узор",
+      "gui.kingdom.anvilcrafttabelmenu.label_big": "Big",
+      "item.kingdom.silveraxe": "Сярэбраная сякера",
       "item.kingdom.silversaber": "Сярэбраная шабля",
       "gui.kingdom.anvilcrafttabelmenu.label_non": "NON",
       "item.kingdom.diamondsaber": "Алмазная шабля",
+      "item.kingdom.silverpickaxe": "Сярэбраная кірка",
       "item.kingdom.undeadknightarcher_spawn_egg": "Нежывы рыцар Spawn Egg",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Шабля",
+      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Saber",
       "advancements.bigironswordavhievement.descr": "Үлкен темір қылыш жасаңыз",
-      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Кальчужныя боты",
+      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Chainmail boots",
       "entity.kingdom.undead_knight": "Нежывы рыцар",
       "entity.kingdom.kinght": "Рыцар",
-      "gui.kingdom.craftbookguimenu.label_saber": "Шабля",
-      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Даспехі",
-      "gui.kingdom.craftbookguimenu.label_or": "або",
-      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "на стрэлку",
+      "gui.kingdom.craftbookguimenu.label_saber": "Saber",
+      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Armor",
+      "gui.kingdom.craftbookguimenu.label_or": "or",
+      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "on the arrow",
       "block.kingdom.rawsilverblock": "Неапрацаваны срэбны блок",
       "item.kingdom.hammer": "Малаток",
       "item.kingdom.biggoldensword": "Вялікі залаты меч",
       "item.kingdom.samplearmor": "Узор зброі",
-      "item.kingdom.craftbook": "Кніга рэцэптаў",
-      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Кальчужны шлем",
+      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Chainmail helmet",
       "gui.kingdom.anvilcrafttabelmenu.label_non1": "NON",
-      "advancements.anewstorybeginshere.descr": "Ствары молат (Тор гэта ты?)"
-    },
-    "kk_kz": {
-      "item.kingdom.bigsilversword": "Үлкен күміс қылыш",
-      "item.kingdom.undead_knight_spawn_egg": "Өлмеген рыцарь уылдырық жұмыртқасы",
-      "item.the_middle_ages_of_the_kingdom.silverbar": "Күміс құйма",
-      "item.kingdom.bigironsword": "Үлкен темір қылыш",
-      "advancements.ironage.descr": "Жаңа анвилді жасаңыз",
-      "advancements.anewstorybeginshere.title": "Жаңа оқиға осы жерден басталады",
-      "item.kingdom.ironshaber": "Темір қылыш",
-      "item.kingdom.goldencoin": "Алтын монета",
-      "block.kingdom.anvil": "Қолөнер анвил",
-      "advancements.ironage.title": "Темір дәуірі",
-      "advancements.powerisnotalwaysbetter.title": "Күш әрқашан жақсы бола бермейді",
-      "item.kingdom.silver_boots": "Күміс етік",
-      "advancements.powerisnotalwaysbetter.descr": "Темір қылыш жасау",
-      "item.kingdom.silver_leggings": "Күміс леггинстер",
-      "entity.kingdom.knightarcher": "Рыцарь садақшысы",
-      "item.kingdom.silveroreitem": "Күміс кені",
-      "item.kingdom.ironcoin": "Темір монета",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty1": "",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty2": "",
-      "block.kingdom.silver_ore": "Күміс кені",
-      "gui.kingdom.anvilcrafttabelsaber.button_back": "Артқа",
-      "gui.kingdom.craftbookguimenu.label_to_see_the_recipe_click_on_the": "Рецептті көру үшін",
-      "item.kingdom.kinght_spawn_egg": "Рыцарь уылдырық жұмыртқасы",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty3": "",
-      "gui.kingdom.anvilcraftbigsword.button_craft": "Жасау",
-      "item.kingdom.knightarcher_spawn_egg": "Рыцарь садақшысы уылдырық жұмыртқасы",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty4": "",
-      "item.kingdom.sampleshield": "Үлгі қалқаны",
-      "item.kingdom.netheritesaber": "Нетерит қылыш",
-      "gui.kingdom.craftbookguimenu.label_click_on_the_item_or_on_the_arro": "элементті басыңыз",
-      "gui.kingdom.anvilcrafttabelsaber.button_craft": "Жасау",
-      "gui.kingdom.craftbookguimenu.label_armor": "Құрыш",
-      "item.kingdom.silver_chestplate": "Күміс төсбелгі",
-      "item_group.kingdom.kingdomtools": "Kingdom құралдар",
-      "gui.kingdom.anvilcrafttabelmenu.label_sword": "қылыш",
-      "gui.kingdom.anvilcraftarmor.button_craft": "Жасау",
-      "advancements.bigironswordavhievement.title": "Қылышым жанымда болса, кез келген шайқастан аман шығатынымды анық білемін.",
-      "item.kingdom.goldenshabr": "Алтын шаба",
-      "gui.kingdom.anvilcraftarmor.button_back": "Артқа",
-      "gui.kingdom.craftbookarmor.label_chainmail_leggings": "Шынжырлы леггинстер",
-      "gui.kingdom.craftbookarmor.label_chainmail_chestplate": "Тізбекті кеуде тақтайшасы",
-      "gui.kingdom.anvilcrafttabelmenu.label_saber": "Сабер",
-      "block.kingdom.silverblock": "Күміс блок",
-      "item.kingdom.samplesword": "Қылыш үлгісі",
-      "gui.kingdom.anvilcrafttabelmenu.button_empty": "",
-      "gui.kingdom.anvilcraftbigsword.button_back": "Артқа",
-      "item_group.the_middle_ages_of_the_kingdom.the_middle_agesofthe_kingdomore": "Kingdom кені",
-      "gui.kingdom.craftbookguimenu.label_big_sward": "Үлкен қылыш",
-      "item.kingdom.chisel": "Қашау",
-      "item.kingdom.silver_helmet": "Күміс дулыға",
-      "item.kingdom.bigdiamondsword": "Үлкен алмас қылыш",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_big_sword": "Үлкен қылыш",
-      "item.kingdom.diamondshard": "Алмаз сынығы",
-      "item.kingdom.bignetheritesword": "Үлкен нетерит қылыш",
-      "item_group.kingdom.kingdom_ore": "Kingdom ore",
-      "item.kingdom.silvercoin": "Күміс монета",
-      "entity.kingdom.undeadknightarcher": "Өлмеген кітаптар",
-      "gui.kingdom.craftbookguimenu.label_welcome_to_craft_book_to_see_the": "Рецепттер кітабына қош келдіңіз",
-      "item.kingdom.piecesilver": "Күміс кесек",
-      "item_group.kingdom.different": "Kingdom әртүрлі",
-      "item.kingdom.silverbar": "Күміс құйма",
-      "block.the_middle_ages_of_the_kingdom.silver_ore": "Күміс кені",
-      "item_group.kingdom.kingdomitem": "Kingdom элемент",
-      "item.kingdom.samplebow": "Садақ үлгісі",
-      "gui.kingdom.anvilcrafttabelmenu.label_big": "Үлкен",
-      "item.kingdom.sample": "Үлгі",
-      "item.kingdom.silversaber": "Күміс қылыш",
-      "gui.kingdom.anvilcrafttabelmenu.label_non": "NON",
-      "item.kingdom.diamondsaber": "Алмаз қылыш",
-      "item.kingdom.undeadknightarcher_spawn_egg": "Өлмеген рыцарь Уылдырық жұмыртқасы",
-      "gui.kingdom.craftbooksaber_and_big_sward.label_saber": "Сабер",
-      "advancements.bigironswordavhievement.descr": "Үлкен темір қылыш жасаңыз",
-      "gui.kingdom.craftbookarmor.label_chainmail_boots": "Пошталы етік",
-      "entity.kingdom.undead_knight": "Өлмеген рыцарь",
-      "entity.kingdom.kinght": "Кингт",
-      "gui.kingdom.craftbookguimenu.label_saber": "Сабер",
-      "gui.kingdom.anvilcrafttabelmenu.label_armor": "Құрыш",
-      "gui.kingdom.craftbookguimenu.label_or": "немесе",
-      "gui.kingdom.craftbookguimenu.label_on_the_arrow": "көрсеткіде",
-      "block.kingdom.rawsilverblock": "Рав күміс блок",
-      "item.kingdom.hammer": "Балға",
-      "item.kingdom.biggoldensword": "Үлкен алтын қылыш",
-      "item.kingdom.samplearmor": "Құрыш үлгісі",
-      "item.kingdom.craftbook": "Рецепттер кітабы",
-      "gui.kingdom.craftbookarmor.label_chainmail_helmet": "Шынжырлы шлем",
-      "gui.kingdom.anvilcrafttabelmenu.label_non1": "NON",
-      "advancements.anewstorybeginshere.descr": "Балға жасаңыз (Тор бұл сіз бе?)"
+      "advancements.anewstorybeginshere.descr": "Ствары молат (Тор гэта ты?)",
+      "item.kingdom.ironsaber": "Жалезная шабля",
+      "item.kingdom.silvershovel": "Срэбная рыдлёўка"
     }
   },
   "foldersRoot": {
@@ -2054,6 +2051,26 @@
           {
             "name": "shield",
             "children": []
+          },
+          {
+            "name": "sword",
+            "children": []
+          },
+          {
+            "name": "Pickaxe",
+            "children": []
+          },
+          {
+            "name": "Axe",
+            "children": []
+          },
+          {
+            "name": "Shovel",
+            "children": []
+          },
+          {
+            "name": "Hoe",
+            "children": []
           }
         ]
       },
@@ -2089,10 +2106,10 @@
     "modName": "Kingdom",
     "version": "1.5",
     "author": "Cilb or C1lb",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "NON",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": true,
-    "modPicture": "kingdom32x32",
+    "modPicture": "kingdom",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
@@ -2101,5 +2118,5 @@
     "credits": "Thanks for playing with my mod",
     "modElementsPackage": "net.cilb.kingdom"
   },
-  "mcreatorVersion": 202400232117
+  "mcreatorVersion": 202400340615
 }

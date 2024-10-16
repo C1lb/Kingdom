@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -7,7 +7,7 @@
     "group": "silverbar",
     "cookingBookCategory": "MISC",
     "xpReward": 1.5,
-    "cookingTime": 190,
+    "cookingTime": 175,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "smeltingInputStack": {

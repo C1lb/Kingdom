@@ -52,6 +52,7 @@ public class KingdomMod {
 		KingdomModTabs.REGISTRY.register(bus);
 
 		KingdomModMenus.REGISTRY.register(bus);
+
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -8,7 +8,7 @@
     "texture": "big_iron_sword",
     "customModelName": "big_iron_sword:default",
     "blockingModelName": "Normal blocking",
-    "name": "Big iron sword",
+    "name": "Big iron Sword",
     "specialInformation": {
       "fixedValue": []
     },

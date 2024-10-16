@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
         "value": "Items.FEATHER"
@@ -30,13 +30,13 @@
         "value": "Items.DYE#0"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       }
     ],
     "recipeReturnStack": {

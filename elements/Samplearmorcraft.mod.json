@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_HELMET"
+        "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
-        "value": "Items.IRON_CHESTPLATE"
+        "value": "Items.PAPER"
       },
       {
         "value": "Items.FEATHER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.IRON_CHESTPLATE"
       },
       {
-        "value": "Items.DYE#0"
+        "value": "Items.DYE#16"
       },
       {
-        "value": "Items.IRON_LEGGINGS"
+        "value": "Items.PAPER"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.PAPER"
       },
       {
-        "value": "Items.IRON_BOOTS"
+        "value": "Items.PAPER"
       }
     ],
     "recipeReturnStack": {

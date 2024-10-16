@@ -5,6 +5,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
+import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
@@ -29,6 +30,7 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
@@ -72,21 +74,22 @@ public class KnightarcherEntity extends PathfinderMob implements RangedAttackMob
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, UndeadKnightEntity.class, true, false));
-		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Zombie.class, true, false));
-		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ZombieVillager.class, true, false));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Skeleton.class, true, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, WitherSkeleton.class, true, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, WitherSkull.class, true, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Slime.class, true, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Creeper.class, true, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, EnderMan.class, true, false));
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, EnderDragon.class, true, false));
-		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, Witch.class, true, false));
-		this.goalSelector.addGoal(13, new RandomStrollGoal(this, 1));
-		this.targetSelector.addGoal(14, new HurtByTargetGoal(this).setAlertOthers());
-		this.goalSelector.addGoal(15, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(16, new FloatGoal(this));
+		this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, UndeadknightarcherEntity.class, true, false));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, UndeadKnightEntity.class, true, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Zombie.class, true, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ZombieVillager.class, true, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Skeleton.class, true, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, WitherSkeleton.class, true, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, WitherSkull.class, true, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Slime.class, true, false));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Creeper.class, true, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, EnderMan.class, true, false));
+		this.targetSelector.addGoal(12, new NearestAttackableTargetGoal(this, EnderDragon.class, true, false));
+		this.targetSelector.addGoal(13, new NearestAttackableTargetGoal(this, Witch.class, true, false));
+		this.goalSelector.addGoal(14, new RandomStrollGoal(this, 1));
+		this.targetSelector.addGoal(15, new HurtByTargetGoal(this).setAlertOthers());
+		this.goalSelector.addGoal(16, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(17, new FloatGoal(this));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 27, 15f) {
 			@Override
 			public boolean canContinueToUse() {
@@ -144,6 +147,7 @@ public class KnightarcherEntity extends PathfinderMob implements RangedAttackMob
 	}
 
 	public static void init() {
+		SpawnPlacements.register(KingdomModEntities.KNIGHTARCHER.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

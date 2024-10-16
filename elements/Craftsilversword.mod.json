@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Sample"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "CUSTOM:Silverbar"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": ""
       },
       {
-        "value": "Items.FEATHER"
+        "value": ""
       },
       {
-        "value": "Items.SHIELD"
+        "value": "CUSTOM:Silverbar"
       },
       {
-        "value": "Items.DYE#16"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:Sample"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Sampleshield"
+      "value": "CUSTOM:Silversword"
     },
-    "name": "sampleshieldcraft",
+    "name": "craftsilversword",
     "namespace": "mod"
   }
 }

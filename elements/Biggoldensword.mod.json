@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -8,7 +8,7 @@
     "texture": "big_golden_sword",
     "customModelName": "big_golden_sword:default",
     "blockingModelName": "Normal blocking",
-    "name": "Big golden sword",
+    "name": "Big golden Sword",
     "specialInformation": {
       "fixedValue": []
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
@@ -8,7 +8,7 @@
     "texture": "big_diamond_sword",
     "customModelName": "big_diamond_sword:default",
     "blockingModelName": "Normal blocking",
-    "name": "Big diamond sword",
+    "name": "Big diamond Sword",
     "specialInformation": {
       "fixedValue": []
     },

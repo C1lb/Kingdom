@@ -1,5 +1,5 @@
 {
-  "_fv": 66,
+  "_fv": 69,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.PAPER"
+        "value": "CUSTOM:Silverbar"
       },
       {
-        "value": "Items.PAPER"
+        "value": "CUSTOM:Silverbar"
       },
       {
-        "value": "Items.PAPER"
+        "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": "Items.STICK"
       },
       {
-        "value": "Items.PAPER"
+        "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": ""
       },
       {
-        "value": "Items.PAPER"
+        "value": "Items.STICK"
       },
       {
-        "value": "Items.PAPER"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Sample"
+      "value": "CUSTOM:Silverhoe"
     },
-    "name": "samplecraft",
+    "name": "craftsilverhoe",
     "namespace": "mod"
   }
 }
